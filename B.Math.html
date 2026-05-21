@@ -1065,8 +1065,8 @@
 
 <script>
     // Gemini API Setup
-    const apiKey = "AIzaSyBjiapSZM4yp-6_slSvIpWGh5CpH7yVEpE"; // Built-in preview environment delivers key at runtime
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+    const apiKey = "AIzaSyBm0otzJZmCVsrWVJGdgYW385n3Z19UIz0"; // Built-in preview environment delivers key at runtime
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
     // Retry engine for API robustness (Exponential backoff)
     async function fetchWithRetry(url, options, retries = 5) {
